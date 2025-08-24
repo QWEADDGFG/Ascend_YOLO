@@ -1,0 +1,1724 @@
+[INFO] 开始编译源代码...
+-- set INC_PATH: /usr/local/Ascend/ascend-toolkit/latest
+-- set LIB_PATH: /usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub
+-- set THIRDPART: /usr/local/Ascend/ascend-toolkit/latest/thirdpart
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/HwHiAiUser/gp/YOLO/src
+Consolidate compiler generated dependencies of target main
+[ 50%] Building CXX object CMakeFiles/main.dir/sampleYOLOV8.cpp.o
+[100%] Linking CXX executable /home/HwHiAiUser/gp/YOLO/out/main
+[100%] Built target main
+[INFO] 编译完成.
+[INFO] 开始推理...
+[INFO]  Directory exists: ../output
+[INFO]  Directory exists: ../output/images
+[INFO]  Directory exists: ../output/labels
+[INFO]  Acl init ok
+[INFO]  Open device 0 ok
+[INFO]  Use default context currently
+[INFO]  dvpp init resource ok
+[INFO]  Load model ../model/best11sp2.om success
+[INFO]  Create model description success
+[INFO]  Create model(../model/best11sp2.om) output success
+[INFO]  Init model ../model/best11sp2.om success
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 24
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.559570:SO] success
+[INFO]  object detect [0.550781:SO] success
+[INFO]  object detect [0.241699:SO] success
+[INFO]  object detect [0.039551:SO] success
+[INFO]  object detect [0.011589:SO] success
+[INFO]  object detect [0.004665:SO] success
+[INFO]  object detect [0.001525:SO] success
+[INFO]  Warmup (image 0) elapsed time: 0.068716 s , fps: 14.552687
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.084717:SO] success
+[INFO]  object detect [0.002304:SO] success
+[INFO]  Image 1 elapsed time: 0.037308 s , fps: 26.804200
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 18
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.751953:SO] success
+[INFO]  object detect [0.004848:SO] success
+[INFO]  object detect [0.002934:SO] success
+[INFO]  object detect [0.002832:SO] success
+[INFO]  object detect [0.002132:SO] success
+[INFO]  object detect [0.001635:SO] success
+[INFO]  object detect [0.001005:SO] success
+[INFO]  Image 2 elapsed time: 0.041336 s , fps: 24.191701
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.288086:SO] success
+[INFO]  object detect [0.013687:SO] success
+[INFO]  object detect [0.002520:SO] success
+[INFO]  Image 3 elapsed time: 0.039235 s , fps: 25.487768
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.644531:SO] success
+[INFO]  object detect [0.072632:SO] success
+[INFO]  object detect [0.015671:SO] success
+[INFO]  object detect [0.001235:SO] success
+[INFO]  object detect [0.001184:SO] success
+[INFO]  Image 4 elapsed time: 0.036939 s , fps: 27.071308
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.519043:SO] success
+[INFO]  object detect [0.001810:SO] success
+[INFO]  object detect [0.001415:SO] success
+[INFO]  Image 5 elapsed time: 0.037221 s , fps: 26.866793
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.714355:SO] success
+[INFO]  object detect [0.001530:SO] success
+[INFO]  Image 6 elapsed time: 0.036258 s , fps: 27.580397
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 15
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.857422:SO] success
+[INFO]  Image 7 elapsed time: 0.037724 s , fps: 26.508113
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.085632:SO] success
+[INFO]  object detect [0.046539:SO] success
+[INFO]  object detect [0.001574:SO] success
+[INFO]  Image 8 elapsed time: 0.035495 s , fps: 28.172700
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 56
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 24
+[INFO]  object detect [0.604492:SO] success
+[INFO]  object detect [0.424316:SO] success
+[INFO]  object detect [0.209229:SO] success
+[INFO]  object detect [0.190918:SO] success
+[INFO]  object detect [0.106323:SO] success
+[INFO]  object detect [0.092224:SO] success
+[INFO]  object detect [0.035095:SO] success
+[INFO]  object detect [0.012283:SO] success
+[INFO]  object detect [0.011864:SO] success
+[INFO]  object detect [0.006989:SO] success
+[INFO]  object detect [0.005383:SO] success
+[INFO]  object detect [0.005219:SO] success
+[INFO]  object detect [0.004986:SO] success
+[INFO]  object detect [0.004314:SO] success
+[INFO]  object detect [0.003563:SO] success
+[INFO]  object detect [0.003296:SO] success
+[INFO]  object detect [0.002991:SO] success
+[INFO]  object detect [0.002958:SO] success
+[INFO]  object detect [0.002693:SO] success
+[INFO]  object detect [0.001942:SO] success
+[INFO]  object detect [0.001890:SO] success
+[INFO]  object detect [0.001810:SO] success
+[INFO]  object detect [0.001762:SO] success
+[INFO]  object detect [0.001240:SO] success
+[INFO]  Image 9 elapsed time: 0.039117 s , fps: 25.564166
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 53
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.604492:SO] success
+[INFO]  object detect [0.389648:SO] success
+[INFO]  object detect [0.276123:SO] success
+[INFO]  object detect [0.126709:SO] success
+[INFO]  object detect [0.110840:SO] success
+[INFO]  object detect [0.033020:SO] success
+[INFO]  object detect [0.003365:SO] success
+[INFO]  object detect [0.001099:SO] success
+[INFO]  Image 10 elapsed time: 0.040820 s , fps: 24.497904
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.716797:SO] success
+[INFO]  object detect [0.001628:SO] success
+[INFO]  Image 11 elapsed time: 0.046972 s , fps: 21.289431
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.788086:SO] success
+[INFO]  object detect [0.001495:SO] success
+[INFO]  Image 12 elapsed time: 0.038673 s , fps: 25.857500
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.599121:SO] success
+[INFO]  object detect [0.001560:SO] success
+[INFO]  Image 13 elapsed time: 0.034812 s , fps: 28.725681
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 16
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.700684:SO] success
+[INFO]  object detect [0.025269:SO] success
+[INFO]  object detect [0.004364:SO] success
+[INFO]  object detect [0.003429:SO] success
+[INFO]  object detect [0.002350:SO] success
+[INFO]  object detect [0.001184:SO] success
+[INFO]  object detect [0.001125:SO] success
+[INFO]  Image 14 elapsed time: 0.038124 s , fps: 26.229871
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 24
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.738281:SO] success
+[INFO]  object detect [0.736816:SO] success
+[INFO]  object detect [0.002333:SO] success
+[INFO]  Image 15 elapsed time: 0.037357 s , fps: 26.768861
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 27
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.365234:SO] success
+[INFO]  object detect [0.018951:SO] success
+[INFO]  object detect [0.018188:SO] success
+[INFO]  object detect [0.005554:SO] success
+[INFO]  object detect [0.002481:SO] success
+[INFO]  object detect [0.001825:SO] success
+[INFO]  object detect [0.001591:SO] success
+[INFO]  Image 16 elapsed time: 0.033322 s , fps: 30.010263
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.769531:SO] success
+[INFO]  object detect [0.737793:SO] success
+[INFO]  object detect [0.010742:SO] success
+[INFO]  Image 17 elapsed time: 0.038998 s , fps: 25.642489
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 24
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.744629:SO] success
+[INFO]  object detect [0.736328:SO] success
+[INFO]  object detect [0.118164:SO] success
+[INFO]  object detect [0.010742:SO] success
+[INFO]  Image 18 elapsed time: 0.035623 s , fps: 28.071913
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.763672:SO] success
+[INFO]  Image 19 elapsed time: 0.035600 s , fps: 28.090066
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.506836:SO] success
+[INFO]  Image 20 elapsed time: 0.035116 s , fps: 28.476695
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 3
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.314209:SO] success
+[INFO]  Image 21 elapsed time: 0.036193 s , fps: 27.629930
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.326904:SO] success
+[INFO]  object detect [0.004364:SO] success
+[INFO]  Image 22 elapsed time: 0.036010 s , fps: 27.770428
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.201172:SO] success
+[INFO]  object detect [0.001179:SO] success
+[INFO]  object detect [0.001057:SO] success
+[INFO]  Image 23 elapsed time: 0.034854 s , fps: 28.690877
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.705078:SO] success
+[INFO]  object detect [0.001680:SO] success
+[INFO]  Image 24 elapsed time: 0.035267 s , fps: 28.354886
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.731934:SO] success
+[INFO]  object detect [0.596680:SO] success
+[INFO]  Image 25 elapsed time: 0.056577 s , fps: 17.675010
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.693359:SO] success
+[INFO]  Image 26 elapsed time: 0.041686 s , fps: 23.988836
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.085693:SO] success
+[INFO]  object detect [0.005707:SO] success
+[INFO]  object detect [0.003719:SO] success
+[INFO]  object detect [0.001904:SO] success
+[INFO]  object detect [0.001393:SO] success
+[INFO]  Image 27 elapsed time: 0.037511 s , fps: 26.659064
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 49
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 27
+[INFO]  object detect [0.685547:SO] success
+[INFO]  object detect [0.089111:SO] success
+[INFO]  object detect [0.082092:SO] success
+[INFO]  object detect [0.053040:SO] success
+[INFO]  object detect [0.011559:SO] success
+[INFO]  object detect [0.008911:SO] success
+[INFO]  object detect [0.008415:SO] success
+[INFO]  object detect [0.007149:SO] success
+[INFO]  object detect [0.005955:SO] success
+[INFO]  object detect [0.005867:SO] success
+[INFO]  object detect [0.005280:SO] success
+[INFO]  object detect [0.004646:SO] success
+[INFO]  object detect [0.004181:SO] success
+[INFO]  object detect [0.003681:SO] success
+[INFO]  object detect [0.003510:SO] success
+[INFO]  object detect [0.003006:SO] success
+[INFO]  object detect [0.002747:SO] success
+[INFO]  object detect [0.002707:SO] success
+[INFO]  object detect [0.002693:SO] success
+[INFO]  object detect [0.002182:SO] success
+[INFO]  object detect [0.002035:SO] success
+[INFO]  object detect [0.001726:SO] success
+[INFO]  object detect [0.001680:SO] success
+[INFO]  object detect [0.001489:SO] success
+[INFO]  object detect [0.001427:SO] success
+[INFO]  object detect [0.001305:SO] success
+[INFO]  object detect [0.001074:SO] success
+[INFO]  Image 28 elapsed time: 0.037940 s , fps: 26.357515
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.600586:SO] success
+[INFO]  object detect [0.005707:SO] success
+[INFO]  Image 29 elapsed time: 0.036353 s , fps: 27.507769
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 12
+[INFO]  object detect [0.320312:SO] success
+[INFO]  object detect [0.027679:SO] success
+[INFO]  object detect [0.010651:SO] success
+[INFO]  object detect [0.005157:SO] success
+[INFO]  object detect [0.003376:SO] success
+[INFO]  object detect [0.003088:SO] success
+[INFO]  object detect [0.002100:SO] success
+[INFO]  object detect [0.001736:SO] success
+[INFO]  object detect [0.001438:SO] success
+[INFO]  object detect [0.001179:SO] success
+[INFO]  object detect [0.001048:SO] success
+[INFO]  object detect [0.001044:SO] success
+[INFO]  Image 30 elapsed time: 0.034234 s , fps: 29.210792
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 26
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.769531:SO] success
+[INFO]  object detect [0.751953:SO] success
+[INFO]  object detect [0.052826:SO] success
+[INFO]  object detect [0.002541:SO] success
+[INFO]  object detect [0.002378:SO] success
+[INFO]  Image 31 elapsed time: 0.036293 s , fps: 27.553782
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 42
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.765625:SO] success
+[INFO]  object detect [0.714355:SO] success
+[INFO]  object detect [0.019073:SO] success
+[INFO]  object detect [0.008743:SO] success
+[INFO]  object detect [0.003237:SO] success
+[INFO]  object detect [0.003063:SO] success
+[INFO]  object detect [0.002779:SO] success
+[INFO]  Image 32 elapsed time: 0.037282 s , fps: 26.822308
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.090088:SO] success
+[INFO]  object detect [0.023148:SO] success
+[INFO]  object detect [0.002493:SO] success
+[INFO]  Image 33 elapsed time: 0.037213 s , fps: 26.872237
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.713379:SO] success
+[INFO]  Image 34 elapsed time: 0.038498 s , fps: 25.975504
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 18
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.778320:SO] success
+[INFO]  object detect [0.061523:SO] success
+[INFO]  object detect [0.024811:SO] success
+[INFO]  object detect [0.002201:SO] success
+[INFO]  object detect [0.001255:SO] success
+[INFO]  Image 35 elapsed time: 0.035613 s , fps: 28.079911
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.649902:SO] success
+[INFO]  object detect [0.001661:SO] success
+[INFO]  object detect [0.001078:SO] success
+[INFO]  Image 36 elapsed time: 0.035849 s , fps: 27.894598
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.703613:SO] success
+[INFO]  object detect [0.563477:SO] success
+[INFO]  object detect [0.023117:SO] success
+[INFO]  object detect [0.001350:SO] success
+[INFO]  Image 37 elapsed time: 0.034605 s , fps: 28.897357
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.708496:SO] success
+[INFO]  Image 38 elapsed time: 0.049903 s , fps: 20.038928
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.457031:SO] success
+[INFO]  object detect [0.002899:SO] success
+[INFO]  object detect [0.001591:SO] success
+[INFO]  Image 39 elapsed time: 0.036073 s , fps: 27.721927
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.738281:SO] success
+[INFO]  object detect [0.642090:SO] success
+[INFO]  Image 40 elapsed time: 0.029687 s , fps: 33.684526
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.726562:SO] success
+[INFO]  object detect [0.638672:SO] success
+[INFO]  object detect [0.070068:SO] success
+[INFO]  object detect [0.067566:SO] success
+[INFO]  object detect [0.015839:SO] success
+[INFO]  object detect [0.015793:SO] success
+[INFO]  object detect [0.003197:SO] success
+[INFO]  object detect [0.002810:SO] success
+[INFO]  Image 41 elapsed time: 0.034629 s , fps: 28.877260
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 21
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.809570:SO] success
+[INFO]  object detect [0.150391:SO] success
+[INFO]  object detect [0.007874:SO] success
+[INFO]  object detect [0.005554:SO] success
+[INFO]  object detect [0.002531:SO] success
+[INFO]  Image 42 elapsed time: 0.036050 s , fps: 27.739420
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.711426:SO] success
+[INFO]  object detect [0.035156:SO] success
+[INFO]  object detect [0.022232:SO] success
+[INFO]  object detect [0.003822:SO] success
+[INFO]  object detect [0.003536:SO] success
+[INFO]  object detect [0.002235:SO] success
+[INFO]  Image 43 elapsed time: 0.038758 s , fps: 25.800861
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.497070:SO] success
+[INFO]  object detect [0.001449:SO] success
+[INFO]  object detect [0.001184:SO] success
+[INFO]  object detect [0.001160:SO] success
+[INFO]  object detect [0.001064:SO] success
+[INFO]  Image 44 elapsed time: 0.033727 s , fps: 29.649633
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.783203:SO] success
+[INFO]  object detect [0.101440:SO] success
+[INFO]  object detect [0.002922:SO] success
+[INFO]  Image 45 elapsed time: 0.036409 s , fps: 27.465789
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.718750:SO] success
+[INFO]  Image 46 elapsed time: 0.037748 s , fps: 26.491785
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.500977:SO] success
+[INFO]  object detect [0.011078:SO] success
+[INFO]  object detect [0.003147:SO] success
+[INFO]  object detect [0.002462:SO] success
+[INFO]  object detect [0.001040:SO] success
+[INFO]  Image 47 elapsed time: 0.037472 s , fps: 26.686766
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.360352:SO] success
+[INFO]  object detect [0.001774:SO] success
+[INFO]  Image 48 elapsed time: 0.036681 s , fps: 27.261934
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.353760:SO] success
+[INFO]  object detect [0.009598:SO] success
+[INFO]  Image 49 elapsed time: 0.037800 s , fps: 26.455297
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.333740:SO] success
+[INFO]  object detect [0.002531:SO] success
+[INFO]  object detect [0.001040:SO] success
+[INFO]  Image 50 elapsed time: 0.033831 s , fps: 29.558942
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 47
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 12
+[INFO]  object detect [0.642578:SO] success
+[INFO]  object detect [0.446777:SO] success
+[INFO]  object detect [0.345703:SO] success
+[INFO]  object detect [0.250732:SO] success
+[INFO]  object detect [0.210938:SO] success
+[INFO]  object detect [0.162476:SO] success
+[INFO]  object detect [0.122559:SO] success
+[INFO]  object detect [0.013535:SO] success
+[INFO]  object detect [0.003735:SO] success
+[INFO]  object detect [0.002642:SO] success
+[INFO]  object detect [0.002108:SO] success
+[INFO]  object detect [0.001350:SO] success
+[INFO]  Image 51 elapsed time: 0.047850 s , fps: 20.898492
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 57
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 23
+[INFO]  object detect [0.597656:SO] success
+[INFO]  object detect [0.202515:SO] success
+[INFO]  object detect [0.048309:SO] success
+[INFO]  object detect [0.028381:SO] success
+[INFO]  object detect [0.024384:SO] success
+[INFO]  object detect [0.014832:SO] success
+[INFO]  object detect [0.013123:SO] success
+[INFO]  object detect [0.011688:SO] success
+[INFO]  object detect [0.007607:SO] success
+[INFO]  object detect [0.004349:SO] success
+[INFO]  object detect [0.003551:SO] success
+[INFO]  object detect [0.002800:SO] success
+[INFO]  object detect [0.002083:SO] success
+[INFO]  object detect [0.002058:SO] success
+[INFO]  object detect [0.001965:SO] success
+[INFO]  object detect [0.001707:SO] success
+[INFO]  object detect [0.001495:SO] success
+[INFO]  object detect [0.001330:SO] success
+[INFO]  object detect [0.001309:SO] success
+[INFO]  object detect [0.001285:SO] success
+[INFO]  object detect [0.001259:SO] success
+[INFO]  object detect [0.001235:SO] success
+[INFO]  object detect [0.001017:SO] success
+[INFO]  Image 52 elapsed time: 0.046563 s , fps: 21.476465
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.729004:SO] success
+[INFO]  object detect [0.100830:SO] success
+[INFO]  Image 53 elapsed time: 0.036379 s , fps: 27.488597
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.798828:SO] success
+[INFO]  object detect [0.746094:SO] success
+[INFO]  object detect [0.001133:SO] success
+[INFO]  Image 54 elapsed time: 0.036517 s , fps: 27.384558
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 3
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.630371:SO] success
+[INFO]  object detect [0.002979:SO] success
+[INFO]  Image 55 elapsed time: 0.035756 s , fps: 27.967461
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.693848:SO] success
+[INFO]  object detect [0.636230:SO] success
+[INFO]  object detect [0.002632:SO] success
+[INFO]  object detect [0.001694:SO] success
+[INFO]  object detect [0.001454:SO] success
+[INFO]  object detect [0.001315:SO] success
+[INFO]  Image 56 elapsed time: 0.036115 s , fps: 27.689670
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.707031:SO] success
+[INFO]  object detect [0.003609:SO] success
+[INFO]  object detect [0.003496:SO] success
+[INFO]  object detect [0.001231:SO] success
+[INFO]  Image 57 elapsed time: 0.035548 s , fps: 28.131371
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.594727:SO] success
+[INFO]  object detect [0.001781:SO] success
+[INFO]  object detect [0.001170:SO] success
+[INFO]  Image 58 elapsed time: 0.036223 s , fps: 27.606808
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 13
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.010170:SO] success
+[INFO]  object detect [0.010132:SO] success
+[INFO]  object detect [0.001294:SO] success
+[INFO]  Image 59 elapsed time: 0.036692 s , fps: 27.254070
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.695801:SO] success
+[INFO]  Image 60 elapsed time: 0.036859 s , fps: 27.130755
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 35
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.667969:SO] success
+[INFO]  object detect [0.506836:SO] success
+[INFO]  object detect [0.397949:SO] success
+[INFO]  object detect [0.040619:SO] success
+[INFO]  object detect [0.027802:SO] success
+[INFO]  object detect [0.005981:SO] success
+[INFO]  object detect [0.003414:SO] success
+[INFO]  object detect [0.003336:SO] success
+[INFO]  object detect [0.002192:SO] success
+[INFO]  object detect [0.001919:SO] success
+[INFO]  object detect [0.001680:SO] success
+[INFO]  Image 61 elapsed time: 0.037175 s , fps: 26.900099
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.815430:SO] success
+[INFO]  object detect [0.746094:SO] success
+[INFO]  Image 62 elapsed time: 0.036301 s , fps: 27.547078
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.542969:SO] success
+[INFO]  object detect [0.027374:SO] success
+[INFO]  object detect [0.008713:SO] success
+[INFO]  object detect [0.003441:SO] success
+[INFO]  Image 63 elapsed time: 0.034809 s , fps: 28.727881
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.739746:SO] success
+[INFO]  object detect [0.005665:SO] success
+[INFO]  object detect [0.002707:SO] success
+[INFO]  object detect [0.002434:SO] success
+[INFO]  Image 64 elapsed time: 0.036972 s , fps: 27.047481
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 30
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.726074:SO] success
+[INFO]  object detect [0.547852:SO] success
+[INFO]  object detect [0.523926:SO] success
+[INFO]  object detect [0.223755:SO] success
+[INFO]  object detect [0.061035:SO] success
+[INFO]  object detect [0.020981:SO] success
+[INFO]  object detect [0.008545:SO] success
+[INFO]  object detect [0.008217:SO] success
+[INFO]  object detect [0.003765:SO] success
+[INFO]  object detect [0.002407:SO] success
+[INFO]  object detect [0.001655:SO] success
+[INFO]  Image 65 elapsed time: 0.045109 s , fps: 22.168579
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 35
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 15
+[INFO]  object detect [0.350586:SO] success
+[INFO]  object detect [0.073425:SO] success
+[INFO]  object detect [0.038971:SO] success
+[INFO]  object detect [0.018402:SO] success
+[INFO]  object detect [0.012634:SO] success
+[INFO]  object detect [0.008713:SO] success
+[INFO]  object detect [0.006317:SO] success
+[INFO]  object detect [0.004608:SO] success
+[INFO]  object detect [0.004070:SO] success
+[INFO]  object detect [0.003960:SO] success
+[INFO]  object detect [0.003273:SO] success
+[INFO]  object detect [0.003109:SO] success
+[INFO]  object detect [0.001854:SO] success
+[INFO]  object detect [0.001156:SO] success
+[INFO]  object detect [0.001013:SO] success
+[INFO]  Image 66 elapsed time: 0.041665 s , fps: 24.000711
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 21
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.818359:SO] success
+[INFO]  object detect [0.697266:SO] success
+[INFO]  Image 67 elapsed time: 0.036221 s , fps: 27.608508
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.620605:SO] success
+[INFO]  Image 68 elapsed time: 0.036259 s , fps: 27.579430
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.622070:SO] success
+[INFO]  object detect [0.308105:SO] success
+[INFO]  object detect [0.001831:SO] success
+[INFO]  object detect [0.001804:SO] success
+[INFO]  Image 69 elapsed time: 0.033945 s , fps: 29.459327
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 35
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.523438:SO] success
+[INFO]  object detect [0.512695:SO] success
+[INFO]  object detect [0.130859:SO] success
+[INFO]  object detect [0.099121:SO] success
+[INFO]  object detect [0.003063:SO] success
+[INFO]  Image 70 elapsed time: 0.036466 s , fps: 27.422889
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.775391:SO] success
+[INFO]  object detect [0.736328:SO] success
+[INFO]  object detect [0.724609:SO] success
+[INFO]  object detect [0.015137:SO] success
+[INFO]  object detect [0.005917:SO] success
+[INFO]  object detect [0.002333:SO] success
+[INFO]  object detect [0.002165:SO] success
+[INFO]  object detect [0.001839:SO] success
+[INFO]  Image 71 elapsed time: 0.036338 s , fps: 27.519456
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.784668:SO] success
+[INFO]  object detect [0.003029:SO] success
+[INFO]  object detect [0.001315:SO] success
+[INFO]  Image 72 elapsed time: 0.036228 s , fps: 27.602855
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.713379:SO] success
+[INFO]  object detect [0.662109:SO] success
+[INFO]  object detect [0.005917:SO] success
+[INFO]  Image 73 elapsed time: 0.035848 s , fps: 27.895311
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.662109:SO] success
+[INFO]  object detect [0.661621:SO] success
+[INFO]  object detect [0.013420:SO] success
+[INFO]  object detect [0.010948:SO] success
+[INFO]  object detect [0.003765:SO] success
+[INFO]  object detect [0.003525:SO] success
+[INFO]  Image 74 elapsed time: 0.036017 s , fps: 27.764676
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.032654:SO] success
+[INFO]  object detect [0.021957:SO] success
+[INFO]  object detect [0.007401:SO] success
+[INFO]  object detect [0.006592:SO] success
+[INFO]  object detect [0.005867:SO] success
+[INFO]  object detect [0.002846:SO] success
+[INFO]  object detect [0.001086:SO] success
+[INFO]  Image 75 elapsed time: 0.037333 s , fps: 26.786220
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 13
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.507812:SO] success
+[INFO]  object detect [0.276855:SO] success
+[INFO]  object detect [0.270508:SO] success
+[INFO]  object detect [0.177856:SO] success
+[INFO]  object detect [0.026611:SO] success
+[INFO]  object detect [0.002846:SO] success
+[INFO]  object detect [0.002140:SO] success
+[INFO]  object detect [0.001327:SO] success
+[INFO]  Image 76 elapsed time: 0.035379 s , fps: 28.265188
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 15
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.594727:SO] success
+[INFO]  object detect [0.065796:SO] success
+[INFO]  object detect [0.033661:SO] success
+[INFO]  object detect [0.019409:SO] success
+[INFO]  object detect [0.004768:SO] success
+[INFO]  object detect [0.003990:SO] success
+[INFO]  object detect [0.002115:SO] success
+[INFO]  object detect [0.001567:SO] success
+[INFO]  object detect [0.001433:SO] success
+[INFO]  Image 77 elapsed time: 0.031762 s , fps: 31.483815
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 29
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.832031:SO] success
+[INFO]  object detect [0.746094:SO] success
+[INFO]  Image 78 elapsed time: 0.042933 s , fps: 23.292010
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.878906:SO] success
+[INFO]  object detect [0.005341:SO] success
+[INFO]  object detect [0.003172:SO] success
+[INFO]  Image 79 elapsed time: 0.042111 s , fps: 23.746589
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.770996:SO] success
+[INFO]  object detect [0.669922:SO] success
+[INFO]  object detect [0.004593:SO] success
+[INFO]  Image 80 elapsed time: 0.034022 s , fps: 29.393048
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.541992:SO] success
+[INFO]  object detect [0.004452:SO] success
+[INFO]  object detect [0.001586:SO] success
+[INFO]  Image 81 elapsed time: 0.037506 s , fps: 26.662293
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.499023:SO] success
+[INFO]  object detect [0.098511:SO] success
+[INFO]  object detect [0.001648:SO] success
+[INFO]  object detect [0.001017:SO] success
+[INFO]  Image 82 elapsed time: 0.034691 s , fps: 28.825962
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.673828:SO] success
+[INFO]  object detect [0.034424:SO] success
+[INFO]  object detect [0.017441:SO] success
+[INFO]  object detect [0.015381:SO] success
+[INFO]  object detect [0.002800:SO] success
+[INFO]  object detect [0.001438:SO] success
+[INFO]  object detect [0.001427:SO] success
+[INFO]  object detect [0.001255:SO] success
+[INFO]  Image 83 elapsed time: 0.032376 s , fps: 30.887013
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.707031:SO] success
+[INFO]  object detect [0.004021:SO] success
+[INFO]  object detect [0.002369:SO] success
+[INFO]  Image 84 elapsed time: 0.031717 s , fps: 31.528339
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 32
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.770996:SO] success
+[INFO]  object detect [0.729004:SO] success
+[INFO]  object detect [0.005039:SO] success
+[INFO]  object detect [0.002003:SO] success
+[INFO]  object detect [0.001995:SO] success
+[INFO]  Image 85 elapsed time: 0.035779 s , fps: 27.949303
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 27
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.568848:SO] success
+[INFO]  object detect [0.017242:SO] success
+[INFO]  object detect [0.004574:SO] success
+[INFO]  object detect [0.002035:SO] success
+[INFO]  object detect [0.001384:SO] success
+[INFO]  object detect [0.001309:SO] success
+[INFO]  Image 86 elapsed time: 0.037242 s , fps: 26.851643
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.428223:SO] success
+[INFO]  object detect [0.167114:SO] success
+[INFO]  object detect [0.002342:SO] success
+[INFO]  object detect [0.001489:SO] success
+[INFO]  Image 87 elapsed time: 0.034446 s , fps: 29.031079
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.704590:SO] success
+[INFO]  object detect [0.199463:SO] success
+[INFO]  object detect [0.196533:SO] success
+[INFO]  Image 88 elapsed time: 0.031166 s , fps: 32.086687
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.470703:SO] success
+[INFO]  object detect [0.316162:SO] success
+[INFO]  object detect [0.001904:SO] success
+[INFO]  Image 89 elapsed time: 0.035097 s , fps: 28.492111
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 13
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.481445:SO] success
+[INFO]  object detect [0.368164:SO] success
+[INFO]  object detect [0.259521:SO] success
+[INFO]  object detect [0.019409:SO] success
+[INFO]  object detect [0.003006:SO] success
+[INFO]  object detect [0.002724:SO] success
+[INFO]  object detect [0.002304:SO] success
+[INFO]  object detect [0.002296:SO] success
+[INFO]  object detect [0.002262:SO] success
+[INFO]  object detect [0.001726:SO] success
+[INFO]  object detect [0.001053:SO] success
+[INFO]  Image 90 elapsed time: 0.035712 s , fps: 28.001413
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 31
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 18
+[INFO]  object detect [0.644531:SO] success
+[INFO]  object detect [0.265625:SO] success
+[INFO]  object detect [0.027069:SO] success
+[INFO]  object detect [0.018723:SO] success
+[INFO]  object detect [0.011909:SO] success
+[INFO]  object detect [0.003496:SO] success
+[INFO]  object detect [0.002890:SO] success
+[INFO]  object detect [0.002747:SO] success
+[INFO]  object detect [0.002407:SO] success
+[INFO]  object detect [0.002369:SO] success
+[INFO]  object detect [0.002323:SO] success
+[INFO]  object detect [0.002182:SO] success
+[INFO]  object detect [0.002100:SO] success
+[INFO]  object detect [0.001789:SO] success
+[INFO]  object detect [0.001661:SO] success
+[INFO]  object detect [0.001300:SO] success
+[INFO]  object detect [0.001231:SO] success
+[INFO]  object detect [0.001170:SO] success
+[INFO]  Image 91 elapsed time: 0.037356 s , fps: 26.769428
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 18
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.691406:SO] success
+[INFO]  object detect [0.456055:SO] success
+[INFO]  Image 92 elapsed time: 0.052493 s , fps: 19.050278
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.717285:SO] success
+[INFO]  Image 93 elapsed time: 0.035767 s , fps: 27.958810
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 15
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.729980:SO] success
+[INFO]  object detect [0.009552:SO] success
+[INFO]  object detect [0.003944:SO] success
+[INFO]  object detect [0.002226:SO] success
+[INFO]  Image 94 elapsed time: 0.036096 s , fps: 27.704214
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.769043:SO] success
+[INFO]  object detect [0.753418:SO] success
+[INFO]  object detect [0.007011:SO] success
+[INFO]  object detect [0.005280:SO] success
+[INFO]  Image 95 elapsed time: 0.036315 s , fps: 27.536901
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 21
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.757812:SO] success
+[INFO]  object detect [0.172729:SO] success
+[INFO]  object detect [0.147461:SO] success
+[INFO]  object detect [0.010986:SO] success
+[INFO]  object detect [0.004299:SO] success
+[INFO]  Image 96 elapsed time: 0.036411 s , fps: 27.464281
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 48
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 35
+[INFO]  object detect [0.388184:SO] success
+[INFO]  object detect [0.230957:SO] success
+[INFO]  object detect [0.049255:SO] success
+[INFO]  object detect [0.040009:SO] success
+[INFO]  object detect [0.039124:SO] success
+[INFO]  object detect [0.032654:SO] success
+[INFO]  object detect [0.018188:SO] success
+[INFO]  object detect [0.012711:SO] success
+[INFO]  object detect [0.009193:SO] success
+[INFO]  object detect [0.008820:SO] success
+[INFO]  object detect [0.008781:SO] success
+[INFO]  object detect [0.008606:SO] success
+[INFO]  object detect [0.007721:SO] success
+[INFO]  object detect [0.006592:SO] success
+[INFO]  object detect [0.005707:SO] success
+[INFO]  object detect [0.005619:SO] success
+[INFO]  object detect [0.005280:SO] success
+[INFO]  object detect [0.004265:SO] success
+[INFO]  object detect [0.003563:SO] success
+[INFO]  object detect [0.003414:SO] success
+[INFO]  object detect [0.002424:SO] success
+[INFO]  object detect [0.002350:SO] success
+[INFO]  object detect [0.002251:SO] success
+[INFO]  object detect [0.002150:SO] success
+[INFO]  object detect [0.001340:SO] success
+[INFO]  object detect [0.001289:SO] success
+[INFO]  object detect [0.001235:SO] success
+[INFO]  object detect [0.001216:SO] success
+[INFO]  object detect [0.001202:SO] success
+[INFO]  object detect [0.001187:SO] success
+[INFO]  object detect [0.001133:SO] success
+[INFO]  object detect [0.001074:SO] success
+[INFO]  object detect [0.001060:SO] success
+[INFO]  object detect [0.001057:SO] success
+[INFO]  object detect [0.001032:SO] success
+[INFO]  Image 97 elapsed time: 0.037620 s , fps: 26.581689
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.583008:SO] success
+[INFO]  Image 98 elapsed time: 0.037951 s , fps: 26.349831
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.687500:SO] success
+[INFO]  object detect [0.438477:SO] success
+[INFO]  object detect [0.002510:SO] success
+[INFO]  object detect [0.001116:SO] success
+[INFO]  Image 99 elapsed time: 0.033802 s , fps: 29.584193
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.595703:SO] success
+[INFO]  object detect [0.006618:SO] success
+[INFO]  object detect [0.001642:SO] success
+[INFO]  Image 100 elapsed time: 0.035897 s , fps: 27.857379
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.782715:SO] success
+[INFO]  Image 101 elapsed time: 0.035820 s , fps: 27.917555
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.753418:SO] success
+[INFO]  object detect [0.125366:SO] success
+[INFO]  object detect [0.026428:SO] success
+[INFO]  Image 102 elapsed time: 0.035557 s , fps: 28.124168
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 29
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 16
+[INFO]  object detect [0.758789:SO] success
+[INFO]  object detect [0.448242:SO] success
+[INFO]  object detect [0.415771:SO] success
+[INFO]  object detect [0.009338:SO] success
+[INFO]  object detect [0.008514:SO] success
+[INFO]  object detect [0.007935:SO] success
+[INFO]  object detect [0.005600:SO] success
+[INFO]  object detect [0.004116:SO] success
+[INFO]  object detect [0.002823:SO] success
+[INFO]  object detect [0.002520:SO] success
+[INFO]  object detect [0.001537:SO] success
+[INFO]  object detect [0.001346:SO] success
+[INFO]  object detect [0.001240:SO] success
+[INFO]  object detect [0.001175:SO] success
+[INFO]  object detect [0.001000:SO] success
+[INFO]  object detect [0.001000:SO] success
+[INFO]  Image 103 elapsed time: 0.037919 s , fps: 26.372227
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.790527:SO] success
+[INFO]  object detect [0.731934:SO] success
+[INFO]  object detect [0.050537:SO] success
+[INFO]  object detect [0.001748:SO] success
+[INFO]  object detect [0.001377:SO] success
+[INFO]  Image 104 elapsed time: 0.039303 s , fps: 25.443291
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 26
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 10
+[INFO]  object detect [0.722168:SO] success
+[INFO]  object detect [0.711426:SO] success
+[INFO]  object detect [0.037048:SO] success
+[INFO]  object detect [0.024185:SO] success
+[INFO]  object detect [0.004471:SO] success
+[INFO]  object detect [0.003296:SO] success
+[INFO]  object detect [0.002075:SO] success
+[INFO]  object detect [0.001597:SO] success
+[INFO]  object detect [0.001507:SO] success
+[INFO]  object detect [0.001187:SO] success
+[INFO]  Image 105 elapsed time: 0.036680 s , fps: 27.262941
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.677246:SO] success
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.575195:SO] success
+[INFO]  object detect [0.091736:SO] success
+[INFO]  object detect [0.079651:SO] success
+[INFO]  object detect [0.002779:SO] success
+[INFO]  object detect [0.001839:SO] success
+[INFO]  object detect [0.001567:SO] success
+[INFO]  Image 106 elapsed time: 0.046457 s , fps: 21.525131
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 15
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.789062:SO] success
+[INFO]  object detect [0.545898:SO] success
+[INFO]  Image 107 elapsed time: 0.040255 s , fps: 24.841674
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.685547:SO] success
+[INFO]  object detect [0.625977:SO] success
+[INFO]  object detect [0.574219:SO] success
+[INFO]  object detect [0.007324:SO] success
+[INFO]  object detect [0.005707:SO] success
+[INFO]  object detect [0.003838:SO] success
+[INFO]  object detect [0.001300:SO] success
+[INFO]  Image 108 elapsed time: 0.035633 s , fps: 28.064100
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.699219:SO] success
+[INFO]  object detect [0.001231:SO] success
+[INFO]  Image 109 elapsed time: 0.035536 s , fps: 28.140591
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 43
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 15
+[INFO]  object detect [0.528320:SO] success
+[INFO]  object detect [0.189819:SO] success
+[INFO]  object detect [0.018295:SO] success
+[INFO]  object detect [0.015594:SO] success
+[INFO]  object detect [0.013748:SO] success
+[INFO]  object detect [0.008217:SO] success
+[INFO]  object detect [0.005306:SO] success
+[INFO]  object detect [0.003441:SO] success
+[INFO]  object detect [0.003273:SO] success
+[INFO]  object detect [0.003172:SO] success
+[INFO]  object detect [0.002132:SO] success
+[INFO]  object detect [0.002075:SO] success
+[INFO]  object detect [0.001537:SO] success
+[INFO]  object detect [0.001530:SO] success
+[INFO]  object detect [0.001156:SO] success
+[INFO]  Image 110 elapsed time: 0.036403 s , fps: 27.470458
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.679199:SO] success
+[INFO]  object detect [0.135010:SO] success
+[INFO]  object detect [0.006390:SO] success
+[INFO]  object detect [0.003223:SO] success
+[INFO]  object detect [0.001774:SO] success
+[INFO]  object detect [0.001005:SO] success
+[INFO]  Image 111 elapsed time: 0.036110 s , fps: 27.693281
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.667480:SO] success
+[INFO]  Image 112 elapsed time: 0.031525 s , fps: 31.720464
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 46
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 19
+[INFO]  object detect [0.683105:SO] success
+[INFO]  object detect [0.583984:SO] success
+[INFO]  object detect [0.547852:SO] success
+[INFO]  object detect [0.035522:SO] success
+[INFO]  object detect [0.033783:SO] success
+[INFO]  object detect [0.030151:SO] success
+[INFO]  object detect [0.029358:SO] success
+[INFO]  object detect [0.016220:SO] success
+[INFO]  object detect [0.013168:SO] success
+[INFO]  object detect [0.009193:SO] success
+[INFO]  object detect [0.005184:SO] success
+[INFO]  object detect [0.004135:SO] success
+[INFO]  object detect [0.002756:SO] success
+[INFO]  object detect [0.002550:SO] success
+[INFO]  object detect [0.002270:SO] success
+[INFO]  object detect [0.002174:SO] success
+[INFO]  object detect [0.002150:SO] success
+[INFO]  object detect [0.001740:SO] success
+[INFO]  object detect [0.001384:SO] success
+[INFO]  Image 113 elapsed time: 0.035311 s , fps: 28.319938
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.770996:SO] success
+[INFO]  object detect [0.002277:SO] success
+[INFO]  object detect [0.002262:SO] success
+[INFO]  object detect [0.001860:SO] success
+[INFO]  object detect [0.001350:SO] success
+[INFO]  object detect [0.001335:SO] success
+[INFO]  Image 114 elapsed time: 0.035586 s , fps: 28.100690
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 11
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.755859:SO] success
+[INFO]  object detect [0.001240:SO] success
+[INFO]  object detect [0.001107:SO] success
+[INFO]  Image 115 elapsed time: 0.037808 s , fps: 26.449466
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.008545:SO] success
+[INFO]  object detect [0.005493:SO] success
+[INFO]  object detect [0.002970:SO] success
+[INFO]  object detect [0.001294:SO] success
+[INFO]  Image 116 elapsed time: 0.037019 s , fps: 27.012882
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.662109:SO] success
+[INFO]  object detect [0.005260:SO] success
+[INFO]  object detect [0.003349:SO] success
+[INFO]  object detect [0.002396:SO] success
+[INFO]  object detect [0.002100:SO] success
+[INFO]  object detect [0.001357:SO] success
+[INFO]  object detect [0.001013:SO] success
+[INFO]  Image 117 elapsed time: 0.037758 s , fps: 26.484156
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.599609:SO] success
+[INFO]  Image 118 elapsed time: 0.037820 s , fps: 26.441190
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.729004:SO] success
+[INFO]  object detect [0.195312:SO] success
+[INFO]  object detect [0.025238:SO] success
+[INFO]  Image 119 elapsed time: 0.042468 s , fps: 23.547312
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 26
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.771484:SO] success
+[INFO]  object detect [0.703613:SO] success
+[INFO]  Image 120 elapsed time: 0.047928 s , fps: 20.864672
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 31
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 14
+[INFO]  object detect [0.667480:SO] success
+[INFO]  object detect [0.636230:SO] success
+[INFO]  object detect [0.539551:SO] success
+[INFO]  object detect [0.487305:SO] success
+[INFO]  object detect [0.485840:SO] success
+[INFO]  object detect [0.471680:SO] success
+[INFO]  object detect [0.421387:SO] success
+[INFO]  object detect [0.271973:SO] success
+[INFO]  object detect [0.034821:SO] success
+[INFO]  object detect [0.006191:SO] success
+[INFO]  object detect [0.004555:SO] success
+[INFO]  object detect [0.001726:SO] success
+[INFO]  object detect [0.001192:SO] success
+[INFO]  object detect [0.001000:SO] success
+[INFO]  Image 121 elapsed time: 0.035789 s , fps: 27.941542
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 13
+[INFO]  object detect [0.500488:SO] success
+[INFO]  object detect [0.492188:SO] success
+[INFO]  object detect [0.426514:SO] success
+[INFO]  object detect [0.338623:SO] success
+[INFO]  object detect [0.034760:SO] success
+[INFO]  object detect [0.018753:SO] success
+[INFO]  object detect [0.005554:SO] success
+[INFO]  object detect [0.005554:SO] success
+[INFO]  object detect [0.005428:SO] success
+[INFO]  object detect [0.004402:SO] success
+[INFO]  object detect [0.003639:SO] success
+[INFO]  object detect [0.001090:SO] success
+[INFO]  object detect [0.001044:SO] success
+[INFO]  Image 122 elapsed time: 0.042565 s , fps: 23.493730
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.662109:SO] success
+[INFO]  object detect [0.259277:SO] success
+[INFO]  object detect [0.035217:SO] success
+[INFO]  object detect [0.006027:SO] success
+[INFO]  object detect [0.003387:SO] success
+[INFO]  object detect [0.003273:SO] success
+[INFO]  object detect [0.001616:SO] success
+[INFO]  object detect [0.001507:SO] success
+[INFO]  object detect [0.001335:SO] success
+[INFO]  object detect [0.001146:SO] success
+[INFO]  object detect [0.001017:SO] success
+[INFO]  Image 123 elapsed time: 0.038636 s , fps: 25.882374
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.722168:SO] success
+[INFO]  object detect [0.667480:SO] success
+[INFO]  object detect [0.135620:SO] success
+[INFO]  Image 124 elapsed time: 0.034441 s , fps: 29.035382
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.782715:SO] success
+[INFO]  object detect [0.076843:SO] success
+[INFO]  object detect [0.013077:SO] success
+[INFO]  object detect [0.009270:SO] success
+[INFO]  object detect [0.004555:SO] success
+[INFO]  object detect [0.003929:SO] success
+[INFO]  object detect [0.002609:SO] success
+[INFO]  object detect [0.001688:SO] success
+[INFO]  object detect [0.001597:SO] success
+[INFO]  object detect [0.001449:SO] success
+[INFO]  object detect [0.001044:SO] success
+[INFO]  Image 125 elapsed time: 0.036813 s , fps: 27.164488
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 16
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.222168:SO] success
+[INFO]  object detect [0.016342:SO] success
+[INFO]  object detect [0.012199:SO] success
+[INFO]  object detect [0.004757:SO] success
+[INFO]  object detect [0.004116:SO] success
+[INFO]  object detect [0.002653:SO] success
+[INFO]  object detect [0.002140:SO] success
+[INFO]  object detect [0.001483:SO] success
+[INFO]  object detect [0.001005:SO] success
+[INFO]  Image 126 elapsed time: 0.042396 s , fps: 23.587024
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 17
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.634277:SO] success
+[INFO]  object detect [0.322998:SO] success
+[INFO]  object detect [0.007370:SO] success
+[INFO]  object detect [0.002333:SO] success
+[INFO]  object detect [0.001579:SO] success
+[INFO]  Image 127 elapsed time: 0.038090 s , fps: 26.253874
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.568848:SO] success
+[INFO]  object detect [0.017578:SO] success
+[INFO]  object detect [0.016907:SO] success
+[INFO]  object detect [0.015381:SO] success
+[INFO]  object detect [0.003780:SO] success
+[INFO]  object detect [0.001393:SO] success
+[INFO]  object detect [0.001060:SO] success
+[INFO]  Image 128 elapsed time: 0.036415 s , fps: 27.461106
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 2
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.741699:SO] success
+[INFO]  object detect [0.002800:SO] success
+[INFO]  Image 129 elapsed time: 0.037057 s , fps: 26.985470
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 33
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 13
+[INFO]  object detect [0.193481:SO] success
+[INFO]  object detect [0.058350:SO] success
+[INFO]  object detect [0.041992:SO] success
+[INFO]  object detect [0.011734:SO] success
+[INFO]  object detect [0.009270:SO] success
+[INFO]  object detect [0.008545:SO] success
+[INFO]  object detect [0.004501:SO] success
+[INFO]  object detect [0.003838:SO] success
+[INFO]  object detect [0.002693:SO] success
+[INFO]  object detect [0.002531:SO] success
+[INFO]  object detect [0.001427:SO] success
+[INFO]  object detect [0.001269:SO] success
+[INFO]  object detect [0.001184:SO] success
+[INFO]  Image 130 elapsed time: 0.036319 s , fps: 27.533915
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 3
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.348389:SO] success
+[INFO]  object detect [0.001530:SO] success
+[INFO]  Image 131 elapsed time: 0.032213 s , fps: 31.043225
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.616211:SO] success
+[INFO]  object detect [0.593262:SO] success
+[INFO]  object detect [0.029297:SO] success
+[INFO]  object detect [0.002003:SO] success
+[INFO]  object detect [0.001069:SO] success
+[INFO]  object detect [0.001032:SO] success
+[INFO]  Image 132 elapsed time: 0.053605 s , fps: 18.654963
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.653809:SO] success
+[INFO]  object detect [0.136475:SO] success
+[INFO]  object detect [0.028809:SO] success
+[INFO]  object detect [0.024811:SO] success
+[INFO]  object detect [0.023773:SO] success
+[INFO]  object detect [0.014832:SO] success
+[INFO]  object detect [0.004150:SO] success
+[INFO]  object detect [0.002823:SO] success
+[INFO]  object detect [0.002632:SO] success
+[INFO]  Image 133 elapsed time: 0.041715 s , fps: 23.971920
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.036255:SO] success
+[INFO]  object detect [0.006828:SO] success
+[INFO]  object detect [0.002350:SO] success
+[INFO]  object detect [0.001197:SO] success
+[INFO]  Image 134 elapsed time: 0.038082 s , fps: 26.258786
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.720703:SO] success
+[INFO]  object detect [0.007324:SO] success
+[INFO]  object detect [0.002663:SO] success
+[INFO]  object detect [0.001768:SO] success
+[INFO]  object detect [0.001467:SO] success
+[INFO]  Image 135 elapsed time: 0.035205 s , fps: 28.404653
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.714355:SO] success
+[INFO]  object detect [0.125366:SO] success
+[INFO]  Image 136 elapsed time: 0.035083 s , fps: 28.503447
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.671387:SO] success
+[INFO]  object detect [0.014832:SO] success
+[INFO]  object detect [0.008644:SO] success
+[INFO]  object detect [0.004250:SO] success
+[INFO]  object detect [0.001269:SO] success
+[INFO]  Image 137 elapsed time: 0.035305 s , fps: 28.324516
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.311523:SO] success
+[INFO]  object detect [0.022888:SO] success
+[INFO]  object detect [0.021484:SO] success
+[INFO]  object detect [0.002790:SO] success
+[INFO]  object detect [0.001327:SO] success
+[INFO]  Image 138 elapsed time: 0.037565 s , fps: 26.620313
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 30
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.740234:SO] success
+[INFO]  object detect [0.532715:SO] success
+[INFO]  object detect [0.006664:SO] success
+[INFO]  object detect [0.002192:SO] success
+[INFO]  object detect [0.001655:SO] success
+[INFO]  object detect [0.001642:SO] success
+[INFO]  Image 139 elapsed time: 0.040370 s , fps: 24.771163
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 10
+[INFO]  object detect [0.757812:SO] success
+[INFO]  object detect [0.560059:SO] success
+[INFO]  object detect [0.357422:SO] success
+[INFO]  object detect [0.203003:SO] success
+[INFO]  object detect [0.191895:SO] success
+[INFO]  object detect [0.161621:SO] success
+[INFO]  object detect [0.002388:SO] success
+[INFO]  object detect [0.002115:SO] success
+[INFO]  object detect [0.001831:SO] success
+[INFO]  object detect [0.001680:SO] success
+[INFO]  Image 140 elapsed time: 0.030456 s , fps: 32.834408
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.673340:SO] success
+[INFO]  object detect [0.004555:SO] success
+[INFO]  Image 141 elapsed time: 0.030110 s , fps: 33.211169
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 10
+[INFO]  object detect [0.811523:SO] success
+[INFO]  object detect [0.762695:SO] success
+[INFO]  object detect [0.075317:SO] success
+[INFO]  object detect [0.018845:SO] success
+[INFO]  object detect [0.018066:SO] success
+[INFO]  object detect [0.003349:SO] success
+[INFO]  object detect [0.002922:SO] success
+[INFO]  object detect [0.001942:SO] success
+[INFO]  object detect [0.001789:SO] success
+[INFO]  object detect [0.001748:SO] success
+[INFO]  Image 142 elapsed time: 0.037114 s , fps: 26.944145
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.605469:SO] success
+[INFO]  object detect [0.012772:SO] success
+[INFO]  object detect [0.002832:SO] success
+[INFO]  Image 143 elapsed time: 0.037396 s , fps: 26.741123
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 31
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.730469:SO] success
+[INFO]  object detect [0.710449:SO] success
+[INFO]  object detect [0.183960:SO] success
+[INFO]  object detect [0.002296:SO] success
+[INFO]  object detect [0.001187:SO] success
+[INFO]  Image 144 elapsed time: 0.037404 s , fps: 26.735209
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.745605:SO] success
+[INFO]  Image 145 elapsed time: 0.045074 s , fps: 22.185608
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.625000:SO] success
+[INFO]  object detect [0.583984:SO] success
+[INFO]  object detect [0.001661:SO] success
+[INFO]  Image 146 elapsed time: 0.046471 s , fps: 21.518984
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.613770:SO] success
+[INFO]  object detect [0.003405:SO] success
+[INFO]  object detect [0.002642:SO] success
+[INFO]  object detect [0.001949:SO] success
+[INFO]  object detect [0.001537:SO] success
+[INFO]  object detect [0.001156:SO] success
+[INFO]  Image 147 elapsed time: 0.039081 s , fps: 25.588042
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.705566:SO] success
+[INFO]  object detect [0.126465:SO] success
+[INFO]  object detect [0.004402:SO] success
+[INFO]  Image 148 elapsed time: 0.036421 s , fps: 27.456379
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 4
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.460449:SO] success
+[INFO]  Image 149 elapsed time: 0.036588 s , fps: 27.331649
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 14
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.716797:SO] success
+[INFO]  object detect [0.045654:SO] success
+[INFO]  object detect [0.009857:SO] success
+[INFO]  object detect [0.005688:SO] success
+[INFO]  object detect [0.001898:SO] success
+[INFO]  object detect [0.001112:SO] success
+[INFO]  Image 150 elapsed time: 0.036751 s , fps: 27.210069
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.782715:SO] success
+[INFO]  Image 151 elapsed time: 0.035830 s , fps: 27.909682
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 13
+[INFO]  object detect [0.716797:SO] success
+[INFO]  object detect [0.080078:SO] success
+[INFO]  object detect [0.061890:SO] success
+[INFO]  object detect [0.026871:SO] success
+[INFO]  object detect [0.022964:SO] success
+[INFO]  object detect [0.002434:SO] success
+[INFO]  object detect [0.001816:SO] success
+[INFO]  object detect [0.001762:SO] success
+[INFO]  object detect [0.001554:SO] success
+[INFO]  object detect [0.001461:SO] success
+[INFO]  object detect [0.001438:SO] success
+[INFO]  object detect [0.001373:SO] success
+[INFO]  object detect [0.001032:SO] success
+[INFO]  Image 152 elapsed time: 0.035840 s , fps: 27.901522
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.549805:SO] success
+[INFO]  object detect [0.473145:SO] success
+[INFO]  object detect [0.001781:SO] success
+[INFO]  object detect [0.001340:SO] success
+[INFO]  object detect [0.001028:SO] success
+[INFO]  Image 153 elapsed time: 0.034019 s , fps: 29.395658
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.667969:SO] success
+[INFO]  object detect [0.011864:SO] success
+[INFO]  object detect [0.011688:SO] success
+[INFO]  object detect [0.005642:SO] success
+[INFO]  object detect [0.001202:SO] success
+[INFO]  object detect [0.001064:SO] success
+[INFO]  Image 154 elapsed time: 0.034429 s , fps: 29.045274
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.796875:SO] success
+[INFO]  object detect [0.710938:SO] success
+[INFO]  Image 155 elapsed time: 0.035955 s , fps: 27.812876
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.673340:SO] success
+[INFO]  object detect [0.002653:SO] success
+[INFO]  object detect [0.001197:SO] success
+[INFO]  Image 156 elapsed time: 0.034559 s , fps: 28.936065
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.647949:SO] success
+[INFO]  object detect [0.007690:SO] success
+[INFO]  Image 157 elapsed time: 0.031575 s , fps: 31.670672
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 68
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 16
+[INFO]  object detect [0.778320:SO] success
+[INFO]  object detect [0.711426:SO] success
+[INFO]  object detect [0.622070:SO] success
+[INFO]  object detect [0.127686:SO] success
+[INFO]  object detect [0.116455:SO] success
+[INFO]  object detect [0.076172:SO] success
+[INFO]  object detect [0.044098:SO] success
+[INFO]  object detect [0.020615:SO] success
+[INFO]  object detect [0.007095:SO] success
+[INFO]  object detect [0.003273:SO] success
+[INFO]  object detect [0.002876:SO] success
+[INFO]  object detect [0.002602:SO] success
+[INFO]  object detect [0.002270:SO] success
+[INFO]  object detect [0.001454:SO] success
+[INFO]  object detect [0.001389:SO] success
+[INFO]  object detect [0.001350:SO] success
+[INFO]  Image 158 elapsed time: 0.058496 s , fps: 17.095327
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 32
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 10
+[INFO]  object detect [0.716797:SO] success
+[INFO]  object detect [0.546387:SO] success
+[INFO]  object detect [0.082275:SO] success
+[INFO]  object detect [0.010773:SO] success
+[INFO]  object detect [0.010216:SO] success
+[INFO]  object detect [0.009193:SO] success
+[INFO]  object detect [0.003248:SO] success
+[INFO]  object detect [0.001980:SO] success
+[INFO]  object detect [0.001525:SO] success
+[INFO]  object detect [0.001216:SO] success
+[INFO]  Image 159 elapsed time: 0.046787 s , fps: 21.373546
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.666504:SO] success
+[INFO]  object detect [0.627441:SO] success
+[INFO]  object detect [0.531738:SO] success
+[INFO]  object detect [0.009789:SO] success
+[INFO]  Image 160 elapsed time: 0.034601 s , fps: 28.900837
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 28
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.933594:SO] success
+[INFO]  object detect [0.902344:SO] success
+[INFO]  Image 161 elapsed time: 0.033470 s , fps: 29.877114
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 27
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.705078:SO] success
+[INFO]  object detect [0.695312:SO] success
+[INFO]  object detect [0.027527:SO] success
+[INFO]  object detect [0.016022:SO] success
+[INFO]  object detect [0.002050:SO] success
+[INFO]  object detect [0.001250:SO] success
+[INFO]  object detect [0.001064:SO] success
+[INFO]  Image 162 elapsed time: 0.035415 s , fps: 28.236456
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.763672:SO] success
+[INFO]  object detect [0.001926:SO] success
+[INFO]  Image 163 elapsed time: 0.035721 s , fps: 27.995092
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 20
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.734375:SO] success
+[INFO]  object detect [0.013382:SO] success
+[INFO]  object detect [0.003147:SO] success
+[INFO]  object detect [0.001934:SO] success
+[INFO]  object detect [0.001635:SO] success
+[INFO]  object detect [0.001112:SO] success
+[INFO]  Image 164 elapsed time: 0.034627 s , fps: 28.879605
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.737793:SO] success
+[INFO]  object detect [0.703613:SO] success
+[INFO]  object detect [0.629395:SO] success
+[INFO]  object detect [0.005917:SO] success
+[INFO]  object detect [0.003510:SO] success
+[INFO]  Image 165 elapsed time: 0.033937 s , fps: 29.466796
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 24
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.772949:SO] success
+[INFO]  object detect [0.763672:SO] success
+[INFO]  object detect [0.015533:SO] success
+[INFO]  object detect [0.001839:SO] success
+[INFO]  Image 166 elapsed time: 0.035639 s , fps: 28.058884
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.466797:SO] success
+[INFO]  object detect [0.121216:SO] success
+[INFO]  object detect [0.057129:SO] success
+[INFO]  object detect [0.023193:SO] success
+[INFO]  object detect [0.003582:SO] success
+[INFO]  object detect [0.001904:SO] success
+[INFO]  object detect [0.001789:SO] success
+[INFO]  object detect [0.001255:SO] success
+[INFO]  object detect [0.001231:SO] success
+[INFO]  Image 167 elapsed time: 0.036317 s , fps: 27.535653
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.480469:SO] success
+[INFO]  object detect [0.392090:SO] success
+[INFO]  Image 168 elapsed time: 0.035403 s , fps: 28.246426
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 21
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.871582:SO] success
+[INFO]  object detect [0.005733:SO] success
+[INFO]  Image 169 elapsed time: 0.037391 s , fps: 26.744639
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 18
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.791016:SO] success
+[INFO]  object detect [0.728516:SO] success
+[INFO]  object detect [0.008125:SO] success
+[INFO]  Image 170 elapsed time: 0.052001 s , fps: 19.230469
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.708496:SO] success
+[INFO]  object detect [0.001707:SO] success
+[INFO]  Image 171 elapsed time: 0.049582 s , fps: 20.168470
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.700684:SO] success
+[INFO]  object detect [0.582520:SO] success
+[INFO]  Image 172 elapsed time: 0.046506 s , fps: 21.502403
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 36
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.446289:SO] success
+[INFO]  object detect [0.042816:SO] success
+[INFO]  object detect [0.032898:SO] success
+[INFO]  object detect [0.031189:SO] success
+[INFO]  object detect [0.013901:SO] success
+[INFO]  object detect [0.003796:SO] success
+[INFO]  object detect [0.001854:SO] success
+[INFO]  object detect [0.001197:SO] success
+[INFO]  object detect [0.001164:SO] success
+[INFO]  Image 173 elapsed time: 0.035759 s , fps: 27.964968
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 68
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 18
+[INFO]  object detect [0.779297:SO] success
+[INFO]  object detect [0.722168:SO] success
+[INFO]  object detect [0.595703:SO] success
+[INFO]  object detect [0.119141:SO] success
+[INFO]  object detect [0.077026:SO] success
+[INFO]  object detect [0.073547:SO] success
+[INFO]  object detect [0.061523:SO] success
+[INFO]  object detect [0.024628:SO] success
+[INFO]  object detect [0.009789:SO] success
+[INFO]  object detect [0.007256:SO] success
+[INFO]  object detect [0.004608:SO] success
+[INFO]  object detect [0.004116:SO] success
+[INFO]  object detect [0.003914:SO] success
+[INFO]  object detect [0.002058:SO] success
+[INFO]  object detect [0.001489:SO] success
+[INFO]  object detect [0.001340:SO] success
+[INFO]  object detect [0.001274:SO] success
+[INFO]  object detect [0.001231:SO] success
+[INFO]  Image 174 elapsed time: 0.037685 s , fps: 26.535971
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 25
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 13
+[INFO]  object detect [0.538086:SO] success
+[INFO]  object detect [0.139893:SO] success
+[INFO]  object detect [0.063232:SO] success
+[INFO]  object detect [0.019043:SO] success
+[INFO]  object detect [0.007462:SO] success
+[INFO]  object detect [0.007011:SO] success
+[INFO]  object detect [0.006664:SO] success
+[INFO]  object detect [0.002090:SO] success
+[INFO]  object detect [0.001965:SO] success
+[INFO]  object detect [0.001904:SO] success
+[INFO]  object detect [0.001502:SO] success
+[INFO]  object detect [0.001330:SO] success
+[INFO]  object detect [0.001315:SO] success
+[INFO]  Image 175 elapsed time: 0.039609 s , fps: 25.246820
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 17
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.748047:SO] success
+[INFO]  object detect [0.730469:SO] success
+[INFO]  object detect [0.656250:SO] success
+[INFO]  object detect [0.002182:SO] success
+[INFO]  Image 176 elapsed time: 0.035775 s , fps: 27.952167
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.675293:SO] success
+[INFO]  object detect [0.656250:SO] success
+[INFO]  object detect [0.002571:SO] success
+[INFO]  Image 177 elapsed time: 0.034363 s , fps: 29.101484
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 9
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.546387:SO] success
+[INFO]  object detect [0.270508:SO] success
+[INFO]  object detect [0.001099:SO] success
+[INFO]  Image 178 elapsed time: 0.032871 s , fps: 30.422154
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 62
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 9
+[INFO]  object detect [0.794434:SO] success
+[INFO]  object detect [0.734863:SO] success
+[INFO]  object detect [0.626953:SO] success
+[INFO]  object detect [0.303955:SO] success
+[INFO]  object detect [0.023773:SO] success
+[INFO]  object detect [0.013794:SO] success
+[INFO]  object detect [0.007370:SO] success
+[INFO]  object detect [0.004791:SO] success
+[INFO]  object detect [0.003536:SO] success
+[INFO]  Image 179 elapsed time: 0.036276 s , fps: 27.566221
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 3
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.667969:SO] success
+[INFO]  Image 180 elapsed time: 0.034575 s , fps: 28.922849
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 8
+[INFO]  object detect [0.750000:SO] success
+[INFO]  object detect [0.011078:SO] success
+[INFO]  object detect [0.003159:SO] success
+[INFO]  object detect [0.002277:SO] success
+[INFO]  object detect [0.002270:SO] success
+[INFO]  object detect [0.001860:SO] success
+[INFO]  object detect [0.001467:SO] success
+[INFO]  object detect [0.001112:SO] success
+[INFO]  Image 181 elapsed time: 0.034573 s , fps: 28.924470
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 16
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.755371:SO] success
+[INFO]  object detect [0.494141:SO] success
+[INFO]  Image 182 elapsed time: 0.035388 s , fps: 28.258333
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 2
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.005981:SO] success
+[INFO]  object detect [0.001919:SO] success
+[INFO]  Image 183 elapsed time: 0.037264 s , fps: 26.835700
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 15
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 4
+[INFO]  object detect [0.710938:SO] success
+[INFO]  object detect [0.006390:SO] success
+[INFO]  object detect [0.001240:SO] success
+[INFO]  object detect [0.001125:SO] success
+[INFO]  Image 184 elapsed time: 0.049789 s , fps: 20.084576
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 16
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.619141:SO] success
+[INFO]  object detect [0.001579:SO] success
+[INFO]  Image 185 elapsed time: 0.038804 s , fps: 25.770677
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.640137:SO] success
+[INFO]  Image 186 elapsed time: 0.037201 s , fps: 26.880681
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 23
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.791016:SO] success
+[INFO]  object detect [0.738281:SO] success
+[INFO]  object detect [0.009857:SO] success
+[INFO]  Image 187 elapsed time: 0.037793 s , fps: 26.459599
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 38
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.405029:SO] success
+[INFO]  object detect [0.312012:SO] success
+[INFO]  object detect [0.215820:SO] success
+[INFO]  object detect [0.151367:SO] success
+[INFO]  object detect [0.088867:SO] success
+[INFO]  object detect [0.002192:SO] success
+[INFO]  object detect [0.001040:SO] success
+[INFO]  Image 188 elapsed time: 0.036051 s , fps: 27.738475
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 2
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.305664:SO] success
+[INFO]  Image 189 elapsed time: 0.036926 s , fps: 27.081420
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 6
+[INFO]  object detect [0.726562:SO] success
+[INFO]  object detect [0.009911:SO] success
+[INFO]  object detect [0.006432:SO] success
+[INFO]  object detect [0.004150:SO] success
+[INFO]  object detect [0.002592:SO] success
+[INFO]  object detect [0.001107:SO] success
+[INFO]  Image 190 elapsed time: 0.036634 s , fps: 27.297143
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 1
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 1
+[INFO]  object detect [0.669922:SO] success
+[INFO]  Image 191 elapsed time: 0.031477 s , fps: 31.768772
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 19
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 11
+[INFO]  object detect [0.760742:SO] success
+[INFO]  object detect [0.038971:SO] success
+[INFO]  object detect [0.021164:SO] success
+[INFO]  object detect [0.012680:SO] success
+[INFO]  object detect [0.009521:SO] success
+[INFO]  object detect [0.004200:SO] success
+[INFO]  object detect [0.002502:SO] success
+[INFO]  object detect [0.002296:SO] success
+[INFO]  object detect [0.001797:SO] success
+[INFO]  object detect [0.001225:SO] success
+[INFO]  object detect [0.001048:SO] success
+[INFO]  Image 192 elapsed time: 0.035811 s , fps: 27.924571
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 10
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.697754:SO] success
+[INFO]  object detect [0.677734:SO] success
+[INFO]  object detect [0.011963:SO] success
+[INFO]  Image 193 elapsed time: 0.030364 s , fps: 32.933352
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 8
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.611328:SO] success
+[INFO]  object detect [0.293945:SO] success
+[INFO]  Image 194 elapsed time: 0.033407 s , fps: 29.933587
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 16
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.706543:SO] success
+[INFO]  object detect [0.044342:SO] success
+[INFO]  object detect [0.013474:SO] success
+[INFO]  object detect [0.003441:SO] success
+[INFO]  object detect [0.002424:SO] success
+[INFO]  object detect [0.001320:SO] success
+[INFO]  object detect [0.001009:SO] success
+[INFO]  Image 195 elapsed time: 0.036525 s , fps: 27.378372
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 12
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 5
+[INFO]  object detect [0.201904:SO] success
+[INFO]  object detect [0.026611:SO] success
+[INFO]  object detect [0.007721:SO] success
+[INFO]  object detect [0.001495:SO] success
+[INFO]  object detect [0.001377:SO] success
+[INFO]  Image 196 elapsed time: 0.035008 s , fps: 28.565141
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 7
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.673828:SO] success
+[INFO]  object detect [0.001235:SO] success
+[INFO]  Image 197 elapsed time: 0.037909 s , fps: 26.379301
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 29
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 7
+[INFO]  object detect [0.716309:SO] success
+[INFO]  object detect [0.004181:SO] success
+[INFO]  object detect [0.004135:SO] success
+[INFO]  object detect [0.003029:SO] success
+[INFO]  object detect [0.002090:SO] success
+[INFO]  object detect [0.001934:SO] success
+[INFO]  object detect [0.001289:SO] success
+[INFO]  Image 198 elapsed time: 0.045336 s , fps: 22.057486
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 5
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 3
+[INFO]  object detect [0.281738:SO] success
+[INFO]  object detect [0.003487:SO] success
+[INFO]  object detect [0.001560:SO] success
+[INFO]  Image 199 elapsed time: 0.040617 s , fps: 24.620320
+[INFO]  filter boxes by confidence threshold > 0.001000 success, boxes size is 6
+[INFO]  filter boxes by NMS threshold > 0.450000 success, result size is 2
+[INFO]  object detect [0.798828:SO] success
+[INFO]  object detect [0.655762:SO] success
+[INFO]  Image 200 elapsed time: 0.037755 s , fps: 26.486888
+[INFO]  Processed 200 images (excluding warmup), average FPS: 26.635783
+[INFO]  Unload model ../model/best11sp2.om success
+[INFO]  destroy context ok
+[INFO]  Reset device 0 ok
+[INFO]  Finalize acl ok
+[INFO] 推理完成.
+[INFO] 开始评估 mAP...
+========== 评估结果 ==========
+Precision: [    0.84159]
+Recall: [    0.82155]
+mAP@0.5: 0.8835603850414849
+mAP@0.5:0.95: 0.4143265004933128
+================================
+[INFO] 评估完成.
+======================================
+ Run finished at Wed Aug 20 17:00:42 CST 2025
+ Logs saved to /home/HwHiAiUser/gp/YOLO/logs/run_2025-08-20_17-00-14.log
+======================================

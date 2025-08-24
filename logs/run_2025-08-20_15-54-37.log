@@ -1,0 +1,30 @@
+[INFO] 开始编译源代码...
+-- set INC_PATH: /usr/local/Ascend/ascend-toolkit/latest
+-- set LIB_PATH: /usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub
+-- set THIRDPART: /usr/local/Ascend/ascend-toolkit/latest/thirdpart
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/HwHiAiUser/gp/YOLO/src
+Consolidate compiler generated dependencies of target main
+[ 50%] Building CXX object CMakeFiles/main.dir/sampleYOLOV8.cpp.o
+[100%] Linking CXX executable /home/HwHiAiUser/gp/YOLO/out/main
+[100%] Built target main
+[INFO] 编译完成.
+[INFO] 开始推理...
+[INFO]  Created directory: ../output
+[INFO]  Created directory: ../output/images
+[INFO]  Created directory: ../output/labels
+[INFO]  Acl init ok
+[INFO]  Open device 0 ok
+[INFO]  Use default context currently
+[INFO]  dvpp init resource ok
+[ERROR]  Load model(../model/best0818.om) from file return 145002
+[ERROR]  Load model ../model/best0818.om from file failed
+[ERROR]  Create input failed for no input data
+[ERROR]  Execute model(../model/best0818.om) error:100000
+[ERROR]  execute model failed, errorCode is 309
+[ERROR]  Inference failed, errorCode is 1
+[INFO]  Model(../model/best0818.om) had not been loaded or unload already
+[INFO]  destroy context ok
+[INFO]  Reset device 0 ok
+[INFO]  Finalize acl ok
