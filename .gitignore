@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# 忽略 Ascend_YOLO 的 output 文件夹
+Ascend_YOLO/output_hbb/
+Ascend_YOLO/output_obb/
