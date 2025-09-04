@@ -15,6 +15,31 @@ npu-smi info
 | 0       0                     | NA              | 0            3841 / 11577                            |
 +===============================+=================+======================================================+
 ```
+```bash
+
+.
+├── LICENSE
+├── README.md
+├── convert.py
+├── git.sh
+├── infer_hbb.sh
+├── infer_obb.sh
+├── metrics.py
+├── model
+│   ├── YOLO11n_p2_hbb_IRSTD_1K_512.om
+│   ├── YOLO11s_base_obb_MVRSD_640.om
+│   ├── aipp512.cfg
+│   └── aipp640.cfg
+├── run_compile.sh
+├── src
+│   ├── CMakeLists.txt
+│   ├── YOLO_hbb.cpp
+│   └── YOLO_obb.cpp
+├── val_hbb.py
+└── val_obb.py
+
+2 directories, 17 files
+```
 
 ### 1.2 准备数据集与模型
 ```shell
