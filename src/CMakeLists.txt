@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 3.5.1)
 
-project(sampleYOLOV8)
+project(YOLO_HBB_OBB)
 
 add_compile_options(-std=c++11)
 
@@ -39,6 +39,7 @@ include_directories(
    ${INC_PATH}/runtime/include/
    /usr/local/include/opencv4/
    ${THIRDPART}/include/acllite/
+   /usr/local/Ascend/ascend-toolkit/latest/thirdpart/include/acllite
 )
 
 link_directories(
@@ -47,13 +48,22 @@ link_directories(
     /usr/local/lib
 )
 
-add_executable(main
-        sampleYOLOV8.cpp)
+set(CMAKE_BUILD_TYPE "Debug")
 
+# -------- YOLO HBB 可执行文件 --------
+add_executable(main_hbb YOLO_hbb.cpp)
 if(target STREQUAL "Simulator_Function")
-    target_link_libraries(main funcsim)
+    target_link_libraries(main_hbb funcsim)
 else()
-    target_link_libraries(main ascendcl acl_dvpp stdc++ acllite opencv_core opencv_imgproc opencv_imgcodecs dl rt)
+    target_link_libraries(main_hbb ascendcl acl_dvpp stdc++ acllite opencv_core opencv_imgproc opencv_imgcodecs dl rt)
 endif()
+install(TARGETS main_hbb DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 
-install(TARGETS main DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
+# -------- YOLO OBB 可执行文件 --------
+add_executable(main_obb YOLO_obb.cpp)
+if(target STREQUAL "Simulator_Function")
+    target_link_libraries(main_obb funcsim)
+else()
+    target_link_libraries(main_obb ascendcl acl_dvpp stdc++ acllite opencv_core opencv_imgproc opencv_imgcodecs dl rt)
+endif()
+install(TARGETS main_obb DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

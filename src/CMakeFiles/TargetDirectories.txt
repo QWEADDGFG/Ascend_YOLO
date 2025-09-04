@@ -1,7 +1,0 @@
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/main.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/edit_cache.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/rebuild_cache.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/list_install_components.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/install.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/install/local.dir
-/home/HwHiAiUser/gp/YOLO/src/CMakeFiles/install/strip.dir
