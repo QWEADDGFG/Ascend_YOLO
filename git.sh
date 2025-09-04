@@ -9,7 +9,7 @@ if [ -n "$1" ]; then
 fi
 
 echo "[INFO] 添加所有更改..."
-git add .
+git add . ':!Ascend_YOLO/output_*'
 
 echo "[INFO] 提交: $msg"
 git commit -m "$msg" || echo "[WARN] 没有更改需要提交"

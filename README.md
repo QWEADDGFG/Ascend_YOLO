@@ -133,7 +133,32 @@ python convert.py
 ```bash
 chmod +x run_compile.sh
 ./run_compile.sh
-
+[INFO] 开始编译源代码...
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- set INC_PATH: /usr/local/Ascend/ascend-toolkit/latest
+-- set LIB_PATH: /usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub
+-- set THIRDPART: /usr/local/Ascend/ascend-toolkit/latest/thirdpart
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/HwHiAiUser/gp/Ascend_YOLO/src
+[ 25%] Building CXX object CMakeFiles/main_hbb.dir/YOLO_hbb.cpp.o
+[ 50%] Linking CXX executable /home/HwHiAiUser/gp/Ascend_YOLO/out/main_hbb
+[ 50%] Built target main_hbb
+[ 75%] Building CXX object CMakeFiles/main_obb.dir/YOLO_obb.cpp.o
+[100%] Linking CXX executable /home/HwHiAiUser/gp/Ascend_YOLO/out/main_obb
+[100%] Built target main_obb
+[INFO] 编译完成.
 ```
 
 ### 3.2 推理
@@ -145,7 +170,49 @@ chmod +x run_compile.sh
 ## 4. 精度结果解析
 ```bash
 python val_hbb.py
+========== 评估结果 ==========
+Precision: [    0.90542]
+Recall: [    0.81481]
+mAP@0.5: 0.8786495761295028
+mAP@0.5:0.95: 0.4567271853301881
+================================
+
 python val_obb.py
+开始OBB评估...
+已处理 50 个文件...
+已处理 100 个文件...
+已处理 150 个文件...
+已处理 200 个文件...
+已处理 250 个文件...
+已处理 300 个文件...
+已处理 350 个文件...
+已处理 400 个文件...
+已处理 450 个文件...
+已处理 500 个文件...
+已处理 550 个文件...
+已处理 600 个文件...
+总共处理了 600 个文件
+预测框总数: 7302
+GT框总数: 6227
+
+========== OBB评估结果 ==========
+类别标签: ['AFV', 'CV', 'LMV', 'MCV', 'SMV']
+Precision: [     0.8092     0.92974     0.81982     0.37506     0.83685]
+Recall: [    0.83908     0.96576     0.85463     0.47059     0.77915]
+mAP@0.5: 0.7942
+mAP@0.5:0.95: 0.7782
+
+========== 各类别详细结果 ==========
+Class    P        R        mAP50    mAP50-95
+---------------------------------------------
+AFV      0.809    0.839    0.884    0.877
+CV       0.930    0.966    0.981    0.975
+LMV      0.820    0.855    0.891    0.846
+MCV      0.375    0.471    0.362    0.342
+SMV      0.837    0.779    0.853    0.851
+==================================================
+OBB评估完成！
+
 
 ```
 
