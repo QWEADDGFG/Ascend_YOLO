@@ -11,7 +11,7 @@ echo "[INFO] 清空缓存（unstage 所有已暂存的更改）..."
 git reset
 
 echo "[INFO] 添加所有更改（排除 Ascend_YOLO/output_* 文件夹）..."
-git add . ':!Ascend_YOLO/out2'
+git add . ':!Ascend_YOLO/output_hbb' ':!Ascend_YOLO/output_obb'
 
 echo "[INFO] 提交: $msg"
 git commit -m "$msg" || echo "[WARN] 没有更改需要提交"
