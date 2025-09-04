@@ -41,6 +41,6 @@
 *.dwo
 
 # 忽略 Ascend_YOLO 的 output 文件夹
-/home/HwHiAiUser/gp/Ascend_YOLO/output_hbb/:
-/home/HwHiAiUser/gp/Ascend_YOLO/output_obb/:
-/home/HwHiAiUser/gp/Ascend_YOLO/log/:
+output_hbb/
+output_obb/
+log/
