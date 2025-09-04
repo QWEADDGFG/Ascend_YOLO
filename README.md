@@ -101,7 +101,7 @@ aipp_op{
 原因：Progressive JPEG 不是 Baseline，某些库（如老旧 OpenCV、嵌入式系统）不支持
 
 解决办法：
-python /home/HwHiAiUser/gp/YOLO/convert.py /home/HwHiAiUser/gp/YOLO/DATASETS/IRSTD_1K/imgs_test /home/HwHiAiUser/gp/YOLO/DATASETS/IRSTD_1K/imgs_test_jpg --quality 100
+python convert.py 
 
 ## 3. 编译推理
 ### 3.1 编译
